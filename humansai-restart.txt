@@ -1,0 +1,95 @@
+Restart task 
+
+humanvaloper1lrlc6q0zr20ltxa09takuln0rsg6n897ehqafu
+
+Restart 1  - Thu May 11 17:46:41 UTC 2023
+5:46PM INF Unlocking keyring
+5:46PM INF starting ABCI with Tendermint
+5:46PM INF starting node with ABCI Tendermint in-process
+5:46PM INF service start impl=multiAppConn module=proxy msg={} server=node
+5:46PM INF service start connection=query impl=localClient module=abci-client msg={} server=node
+5:46PM INF service start connection=snapshot impl=localClient module=abci-client msg={} server=node
+5:46PM INF service start connection=mempool impl=localClient module=abci-client msg={} server=node
+5:46PM INF service start connection=consensus impl=localClient module=abci-client msg={} server=node
+5:46PM INF service start impl=EventBus module=events msg={} server=node
+5:46PM INF service start impl=PubSub module=pubsub msg={} server=node
+5:46PM INF service start impl=IndexerService module=txindex msg={} server=node
+5:46PM INF ABCI Handshake App Info hash="]���)��\\�\x03}�k�7ˀ[\x0f0$$f�}��l$���" height=5057 module=consensus protocol-version=0 server=node software-version=0.2.1
+5:46PM INF ABCI Replay Blocks appHeight=5057 module=consensus server=node stateHeight=5057 storeHeight=5057
+5:46PM INF Completed ABCI Handshake - CometBFT and App are synced appHash="]���)��\\�\x03}�k�7ˀ[\x0f0$$f�}��l$���" appHeight=5057 module=consensus server=node
+5:46PM INF Version info abci=0.17.0 block=11 cmtbft_version=0.34.27 commit_hash= p2p=8 server=node
+5:46PM INF This node is a validator addr=A75DD1E1191FACE0D18FCE0B879EC9156E926B57 module=consensus pubKey=bDpuWzAZOXfHYRB+ymLS3bCA7Exev2xBzrhZs3c0l5I= server=node
+5:46PM INF P2P Node ID ID=6271d80b8fc42da3a2825cc5ef75818dd52423d1 file=/root/.humansd/config/node_key.json module=p2p server=node
+5:46PM INF Adding persistent peers addrs=[] module=p2p server=node
+5:46PM INF Adding unconditional peer ids ids=[] module=p2p server=node
+5:46PM INF Add our address to book addr={"id":"6271d80b8fc42da3a2825cc5ef75818dd52423d1","ip":"138.201.121.185","port":26656} book=/root/.humansd/config/addrbook.json module=p2p server=node
+5:46PM INF Add our address to book addr={"id":"6271d80b8fc42da3a2825cc5ef75818dd52423d1","ip":"0.0.0.0","port":26656} book=/root/.humansd/config/addrbook.json module=p2p server=node
+5:46PM INF service start impl=Node msg={} server=node
+5:46PM INF Starting pprof server laddr=localhost:6060 server=node
+5:46PM INF service start impl="P2P Switch" module=p2p msg={} server=node
+5:46PM INF service start impl=BlockchainReactor module=blockchain msg={} server=node
+
+restart 2 - Thu May 11 19:40:12 UTC 2023
+7:40PM INF Unlocking keyring
+7:40PM INF starting ABCI with Tendermint
+7:40PM INF starting node with ABCI Tendermint in-process
+7:40PM INF service start impl=multiAppConn module=proxy msg={} server=node
+7:40PM INF service start connection=query impl=localClient module=abci-client msg={} server=node
+7:40PM INF service start connection=snapshot impl=localClient module=abci-client msg={} server=node
+7:40PM INF service start connection=mempool impl=localClient module=abci-client msg={} server=node
+7:40PM INF service start connection=consensus impl=localClient module=abci-client msg={} server=node
+7:40PM INF service start impl=EventBus module=events msg={} server=node
+7:40PM INF service start impl=PubSub module=pubsub msg={} server=node
+7:40PM INF service start impl=IndexerService module=txindex msg={} server=node
+7:40PM INF ABCI Handshake App Info hash="B�!�xj�_?<�6��\x160�����ߚ�{�%\x04VW=%" height=6198 module=consensus protocol-version=0 server=node software-version=0.2.1
+7:40PM INF ABCI Replay Blocks appHeight=6198 module=consensus server=node stateHeight=6198 storeHeight=6198
+7:40PM INF Completed ABCI Handshake - CometBFT and App are synced appHash="B�!�xj�_?<�6��\x160�����ߚ�{�%\x04VW=%" appHeight=6198 module=consensus server=node
+7:40PM INF Version info abci=0.17.0 block=11 cmtbft_version=0.34.27 commit_hash= p2p=8 server=node
+7:40PM INF This node is a validator addr=A75DD1E1191FACE0D18FCE0B879EC9156E926B57 module=consensus pubKey=bDpuWzAZOXfHYRB+ymLS3bCA7Exev2xBzrhZs3c0l5I= server=node
+7:40PM INF P2P Node ID ID=6271d80b8fc42da3a2825cc5ef75818dd52423d1 file=/root/.humansd/config/node_key.json module=p2p server=node
+7:40PM INF Adding persistent peers addrs=[] module=p2p server=node
+7:40PM INF Adding unconditional peer ids ids=[] module=p2p server=node
+7:40PM INF Add our address to book addr={"id":"6271d80b8fc42da3a2825cc5ef75818dd52423d1","ip":"138.201.121.185","port":26656} book=/root/.humansd/config/addrbook.json module=p2p server=node
+7:40PM INF Add our address to book addr={"id":"6271d80b8fc42da3a2825cc5ef75818dd52423d1","ip":"0.0.0.0","port":26656} book=/root/.humansd/config/addrbook.json module=p2p server=node
+7:40PM INF service start impl=Node msg={} server=node
+7:40PM INF Starting pprof server laddr=localhost:6060 server=node
+7:40PM INF service start impl="P2P Switch" module=p2p msg={} server=node
+7:40PM INF serve module=rpc-server msg={} server=node
+7:40PM INF service start impl=StateSync module=statesync msg={} server=node
+7:40PM INF service start impl=PEX module=pex msg={} server=node
+
+restart 3 - Fri May 12 07:01:25 UTC 2023
+
+7:01AM INF Unlocking keyring
+7:01AM INF starting ABCI with Tendermint
+7:01AM INF starting node with ABCI Tendermint in-process
+7:01AM INF service start impl=multiAppConn module=proxy msg={} server=node
+7:01AM INF service start connection=query impl=localClient module=abci-client msg={} server=node
+7:01AM INF service start connection=snapshot impl=localClient module=abci-client msg={} server=node
+7:01AM INF service start connection=mempool impl=localClient module=abci-client msg={} server=node
+7:01AM INF service start connection=consensus impl=localClient module=abci-client msg={} server=node
+7:01AM INF service start impl=EventBus module=events msg={} server=node
+7:01AM INF service start impl=PubSub module=pubsub msg={} server=node
+7:01AM INF service start impl=IndexerService module=txindex msg={} server=node
+7:01AM INF ABCI Handshake App Info hash="Jb.�����?~`Ld\x7f�I$�KI(\r9*�\x1d�ʯ)}," height=12931 module=consensus protocol-version=0 server=node software-version=0.2.1
+7:01AM INF ABCI Replay Blocks appHeight=12931 module=consensus server=node stateHeight=12931 storeHeight=12931
+7:01AM INF Completed ABCI Handshake - CometBFT and App are synced appHash="Jb.�����?~`Ld\x7f�I$�KI(\r9*�\x1d�ʯ)}," appHeight=12931 module=consensus server=node
+7:01AM INF Version info abci=0.17.0 block=11 cmtbft_version=0.34.27 commit_hash= p2p=8 server=node
+7:01AM INF This node is a validator addr=A75DD1E1191FACE0D18FCE0B879EC9156E926B57 module=consensus pubKey=bDpuWzAZOXfHYRB+ymLS3bCA7Exev2xBzrhZs3c0l5I= server=node
+7:01AM INF P2P Node ID ID=6271d80b8fc42da3a2825cc5ef75818dd52423d1 file=/root/.humansd/config/node_key.json module=p2p server=node
+7:01AM INF Adding persistent peers addrs=[] module=p2p server=node
+7:01AM INF Adding unconditional peer ids ids=[] module=p2p server=node
+7:01AM INF Add our address to book addr={"id":"6271d80b8fc42da3a2825cc5ef75818dd52423d1","ip":"138.201.121.185","port":26656} book=/root/.humansd/config/addrbook.json module=p2p server=node
+7:01AM INF Add our address to book addr={"id":"6271d80b8fc42da3a2825cc5ef75818dd52423d1","ip":"0.0.0.0","port":26656} book=/root/.humansd/config/addrbook.json module=p2p server=node
+7:01AM INF service start impl=Node msg={} server=node
+7:01AM INF Starting pprof server laddr=localhost:6060 server=node
+7:01AM INF service start impl="P2P Switch" module=p2p msg={} server=node
+7:01AM INF service start impl=PEX module=pex msg={} server=node
+7:01AM INF serve module=rpc-server msg={} server=node
+7:01AM INF service start book=/root/.humansd/config/addrbook.json impl=AddrBook module=p2p msg={} server=node
+7:01AM INF service start impl=BlockchainReactor module=blockchain msg={} server=node
+7:01AM INF service start impl=BlockPool module=blockchain msg={} server=node
+7:01AM INF Ensure peers module=pex numDialing=0 numInPeers=0 numOutPeers=0 numToDial=10 server=node
+7:01AM INF service start impl=ConsensusReactor module=consensus msg={} server=node
+7:01AM INF Reactor  module=consensus server=node waitSync=true
+7:01AM INF service start impl=Evidence module=evidence msg={} server=node
